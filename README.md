@@ -5,124 +5,134 @@
 
 ## Definição
 
-OCR é um acrónimo para o inglês Optical Character Recognition, é uma tecnologia para reconhecer caracteres a partir de um arquivo de imagem ou mapa de bits sejam eles escaneados, escritos a mão, datilografados ou impressos. Dessa forma, através do OCR é possível obter um arquivo de texto editável por um computador.
+OCR (Reconhecimento Óptico de Caracteres) é uma tecnologia que permite a conversão automática de textos presentes em imagens digitais, documentos escaneados ou fotografias em texto editável e pesquisável. Por meio do OCR, é possível transformar documentos físicos, como livros, contratos, cheques e formulários, em arquivos digitais que podem ser manipulados em softwares de edição ou armazenados para buscas futuras.
 
-Combinado com outras tecnologias, como a inteligência artificial, empresas de diversos segmentos têm aplicado o OCR para automatizar processos de cadastro, onboarding e formalização, extraindo informações de documentos de identificação pessoal, contratos e comprovantes de residência. 
+Essa tecnologia identifica caracteres — letras, números, símbolos — a partir dos pixels da imagem, interpretando-os para gerar uma versão textual. Softwares avançados de OCR também conseguem preservar a formatação, fonte e tamanho do texto original, facilitando a reutilização e acessibilidade dos documentos digitalizados.
 
-Fonte: [Wikipedia](https://pt.wikipedia.org/wiki/Reconhecimento_%C3%B3tico_de_caracteres)
+Apesar da precisão crescente, o OCR não é perfeito e a revisão humana é fundamental para garantir a correção dos textos gerados, especialmente em documentos sensíveis. O funcionamento do OCR envolve técnicas como reconhecimento de padrões e detecção de características específicas dos caracteres, além de inteligência artificial e aprendizado de máquina nos sistemas mais modernos. Essa tecnologia é amplamente utilizada em diversas áreas, incluindo digitalização de arquivos históricos, automação de processos administrativos e suporte a pessoas com deficiência visual. 
+
+**Fontes:**  
+- https://www.explainthatstuff.com/how-ocr-works.html  
+- https://techterms.com/definition/ocr  
+- https://www.necc.mass.edu/wp-content/uploads/accessible-media-necc/uncategorized/resources/What-is-OCR.pdf  
 
 <br>
 
 ## Linguagens de Programação
 
+### Pesquisa e Análise de Bibliotecas OCR
+
+### Pesquisas realizadas
+
+Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principais bibliotecas e linguagens compatíveis com OCR. Pretendo ampliar essa pesquisa, comparando bibliotecas e linguagens entre si com base em critérios como: percentual de erro, facilidade de uso, quantidade de materiais e pesquisas disponíveis, comunidade ativa e capacidade de personalização.
+
+---
+
+## Aprimorando as antigas pesquisas…
+
 ### Python
 
-#### EasyOCR
+1. **EasyOCR**  
+Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma das soluções mais modernas, com suporte para GPUs CUDA, aproveitando o poder computacional das placas gráficas.  
+**Principais recursos:**  
+- Programação baseada em Deep Learning, permitindo reconhecimento de padrões complexos.  
+- Suporte multilíngue, capaz de identificar caracteres em vários idiomas.  
+- Aproveitamento de GPU via CUDA.  
 
-**EasyOCR** é uma biblioteca moderna para reconhecimento óptico de caracteres, construída com a biblioteca **[PyTorch](https://pytorch.org)**. Ela oferece suporte a **GPUs CUDA**, possibilitando aceleração em tarefas de OCR para grandes volumes de dados ou imagens complexas.
+**Avaliação preliminar:**  
+| Critério            | Detalhe                          |
+|---------------------|---------------------------------|
+| % de erro           | Pesquisas futuras                |
+| Dificuldade         | Fácil para começar, mas requer PyTorch configurado |
+| Materiais disponíveis | Pesquisas futuras              |
+| Comunidade          | Pouco ativa, suporte principalmente via GitHub Issues |
+| Personalização      | Permite treinamento com datasets específicos |
 
-##### Recursos
+**Fontes utilizadas:**  
+- https://www.youtube.com/watch?v=QX0u69qqM3k  
+- https://medium.com/@adityamahajan.work/easyocr-a-comprehensive-guide-5ff1cb850168  
+- https://www.jaided.ai/easyocr/tutorial/  
+- https://github.com/JaidedAI/EasyOCR  
+- https://www.jaided.ai/easyocr/documentation/
 
--   **Baseada em Deep Learning**: Modelos avançados para detecção e reconhecimento de texto.
--   **Suporte Multilíngue**: Compatível com mais de 80 idiomas.
--   **Aproveitamento de GPU**: Acelera a execução com CUDA (se disponível).
+---
 
-##### Avaliação
-| Critério  | Detalhe  |
-|---|---|
-| Dificuldade  | Fácil de começar, requer o PyTorch configurado  |
-|  Comunidade |  Pouco ativa, suporte através do Issues do GitHub |
-|  Personalização | Permite treinamento com datasets específicos  |
+2. **PaddleOCR**  
+Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considerada mais avançada, é recomendada para cenários complexos, como textos manuscritos e documentos estruturados.  
+**Principais recursos:**  
+- Alta performance com modelos otimizados para maior precisão e velocidade.  
+- Suporte multilíngue para mais de 80 idiomas.  
+- Compatível com GPU CUDA.  
+- Permite treinamento personalizado com datasets específicos.  
 
-##### Links
-📺 [Tutorial: EasyOCR - Extraindo texto de imagens (Português)](https://www.youtube.com/watch?v=QX0u69qqM3k) <br>
-🗒️ [Artigo: EasyOCR - A Comprehensive Guide (Inglês)](https://medium.com/@adityamahajan.work/easyocr-a-comprehensive-guide-5ff1cb850168) <br>
-🗒️ [Artigo: EasyOCR - Quickstart (Inglês)](https://www.jaided.ai/easyocr/tutorial/) <br>
-📁 [Repositório no GitHub](https://github.com/JaidedAI/EasyOCR) <br>
-📄 [Documentação Oficial](https://www.jaided.ai/easyocr/documentation/)
+**Avaliação preliminar:**  
+| Critério            | Detalhe                          |
+|---------------------|---------------------------------|
+| % de erro           | Pesquisas futuras                |
+| Dificuldade         | Difícil de configurar            |
+| Materiais disponíveis | Pesquisas futuras              |
+| Comunidade          | Ativa, suporte via GitHub Issues |
+| Personalização      | Permite treinamento com datasets específicos |
 
-<br>
+**Fontes utilizadas:**  
+- https://www.youtube.com/watch?v=kkgN3hzkSs4  
+- https://www.youtube.com/watch?v=0OA9RdW2saE  
+- https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/quick_start.en.md  
+- https://mlhive.com/2023/04/optical-character-recognition-using-paddleocr-in-python  
+- https://github.com/PaddlePaddle/PaddleOCR  
+- https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html
 
-#### PaddleOCR
+---
 
-**PaddleOCR** é uma biblioteca de OCR avançada, baseada no framework de aprendizado profundo [**PaddlePaddle**](https://github.com/PaddlePaddle/Paddle), desenvolvida pela **Baidu**. Ela é altamente eficiente e projetada para cenários complexos, com suporte para reconhecimento de texto em múltiplos idiomas, incluindo manuscritos e documentos estruturados.
+3. **MMOCR**  
+Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do projeto OpenMMLab. Suporta detecção, reconhecimento e tarefas derivadas como extração de informações-chave.  
+**Principais recursos:**  
+- Pipeline abrangente com múltiplos modelos para detecção e reconhecimento.  
+- Design modular para customização profunda.  
+- Utilitários para avaliação de desempenho.  
 
-##### Recursos
+**Avaliação preliminar:**  
+| Critério            | Detalhe                          |
+|---------------------|---------------------------------|
+| % de erro           | Pesquisas futuras                |
+| Dificuldade         | Alta                            |
+| Materiais disponíveis | Pesquisas futuras              |
+| Comunidade          | Suporte em inglês, comunidade limitada |
+| Personalização      | Estrutura altamente modular      |
 
--   **Alta Performance**: Modelos otimizados para precisão e velocidade em detecção e reconhecimento de texto.
--   **Suporte Multilíngue**: Reconhece mais de 80 idiomas, incluindo suporte avançado para texto manuscrito.
--   **Aproveitamento de GPU**: Totalmente compatível com CUDA para aceleração de inferência.
--   **Treinamento Personalizado**: Permite treinar modelos em datasets específicos.
+**Fontes utilizadas:**  
+- https://colab.research.google.com/github/open-mmlab/mmocr/blob/dev-1.x/demo/tutorial.ipynb  
+- https://www.ikomia.ai/blog/easy-text-extraction-using-mmocr  
+- https://github.com/open-mmlab/mmocr  
+- https://mmocr.readthedocs.io/en/latest/
 
-##### Avaliação
-| Critério  | Detalhe  |
-|---|---|
-| Dificuldade  | Difícil de configurar  |
-|  Comunidade |  Ativa, suporte através do Issues do GitHub |
-|  Personalização | Permite treinamento com datasets específicos  |
-
-
-##### Links
-📺 [Tutorial: Domine o Reconhecimento Óptico de Caracteres com PaddleOCR: Tutorial Completo em Python (Português)](https://www.youtube.com/watch?v=kkgN3hzkSs4) <br>
-📺 [Tutorial: PaddleOCR Python Demo (Inglês)](https://www.youtube.com/watch?v=0OA9RdW2saE) <br>
-🗒️ [Documento: PaddleOCR Quickstart (Inglês)](https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/quick_start.en.md)<br>
-🗒️ [Artigo: Optical Character Recognition using PaddleOCR in Python (Inglês)](https://mlhive.com/2023/04/optical-character-recognition-using-paddleocr-in-python)<br>
-📁 [Repositório no GitHub](https://github.com/PaddlePaddle/PaddleOCR) <br>
-📄 [Documentação Oficial](https://paddlepaddle.github.io/PaddleOCR/latest/en/index.html)
-
-<br>
-
-#### MMOCR
-
-O **MMOCR** é uma biblioteca de código aberto baseada em **[PyTorch](https://pytorch.org)** e **[mmdetection](https://github.com/open-mmlab/mmdetection)** para detecção de texto, reconhecimento de texto e as correspondentes tarefas derivadas, incluindo extração de informações-chave. Faz parte do projeto [OpenMMLab](https://openmmlab.com).
-##### Recursos
-
--   **Pipeline Abrangente** A caixa de ferramentas suporta não apenas detecção e reconhecimento de texto, mas também suas tarefas derivadas, como extração de informações-chave.
--   **Múltiplos Modelos** A biblioteca suporta uma ampla variedade de modelos avançados para detecção de texto, reconhecimento de texto e extração de informações chave
--  **Design Modular** O design modular do MMOCR permite que os usuários definam seus próprios otimizadores, pré-processadores de dados e componentes do modelo, como backbones, necks e heads, bem como funções de perda. 
--   **Numerosas Utilidades** A biblioteca fornece um conjunto abrangente de utilidades que podem ajudar os usuários a avaliar o desempenho dos modelos. Inclui visualizadores que permitem a visualização de imagens, ground truths e caixas delimitadoras previstas, além de uma ferramenta de validação para avaliar checkpoints durante o treinamento.
-
-##### Avaliação
-| Critério  | Detalhe  |
-|---|---|
-| Dificuldade  | Curva de aprendizado é consideravelmente íngreme  |
-|  Comunidade |  Suporte em Inglês limitado |
-|  Personalização | Estrutura altamente modular  |
-
-
-##### Links
-⚙️ [Tutorial prático: MMOCR Official Colab Tutorial (Inglês)](https://colab.research.google.com/github/open-mmlab/mmocr/blob/dev-1.x/demo/tutorial.ipynb)<br>
-🗒️ [Artigo: Easy text extraction using MMOCR: A Comprehensive Guide (Inglês)](https://www.ikomia.ai/blog/easy-text-extraction-using-mmocr)<br>
-📁 [Repositório no GitHub](https://github.com/open-mmlab/mmocr) <br>
-📄 [Documentação Oficial](https://mmocr.readthedocs.io/en/latest/)
-
-<br>
-
+---
 
 ### C++
 
-#### Tesseract OCR
+1. **Tesseract OCR**  
+Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte para múltiplos idiomas e formatos.  
+**Principais recursos:**  
+- Alta precisão, especialmente para texto impresso.  
+- Modularidade para ajustes específicos.  
+- Permite treinamento com datasets personalizados.  
 
-**Tesseract OCR** é uma das bibliotecas de OCR mais conhecidas, desenvolvida pelo Google. Ela oferece suporte para reconhecimento de texto em diversos idiomas e formatos.
+**Avaliação preliminar:**  
+| Critério            | Detalhe                          |
+|---------------------|---------------------------------|
+| % de erro           | Pesquisas futuras                |
+| Dificuldade         | Moderada, requer pré-processamento de imagens |
+| Materiais disponíveis | Pesquisas futuras              |
+| Comunidade          | Ativa, tecnologia madura        |
+| Personalização      | Permite treinamento com datasets específicos |
 
-##### Recursos
+**Fontes utilizadas:**  
+- https://tesseract-ocr.github.io/tessdoc/Examples_C++.html  
+- https://medium.com/building-a-simple-text-correction-tool/basic-ocr-with-tesseract-and-opencv-34fae6ab3400  
+- https://github.com/tesseract-ocr/tesseract  
+- https://tesseract-ocr.github.io/tessdoc/
 
--   **Precisão Confiável**: Focado em texto impresso com excelente suporte para idiomas diversos.
--   **Modularidade**: Permite ajustes finos em parâmetros de reconhecimento para cenários especializados.
--   **Treinamento Personalizado**: Permite treinar modelos em datasets específicos.
+## Próximos passos...
+**Avaliar as principais bibliotecas e frameworks disponíveis**  
 
-##### Avaliação
-| Critério  | Detalhe  |
-|---|---|
-| Dificuldade  | Moderada, requer pré-processamento de imagens  |
-|  Comunidade |  Ativa, tecnologia madura e documentada |
-|  Personalização | Permite treinamento com datasets específicos  |
-
-##### Links
-⚙️ [Exemplo: Tesseract API C++ Examples](https://tesseract-ocr.github.io/tessdoc/Examples_C++.html) <br>
-🗒️ [Artigo: Basic OCR with Tesseract and OpenCV (Inglês)](https://medium.com/building-a-simple-text-correction-tool/basic-ocr-with-tesseract-and-opencv-34fae6ab3400) <br>
-📁 [Repositório no GitHub](https://github.com/tesseract-ocr/tesseract)<br>
-📄 [Documentação Oficial](https://tesseract-ocr.github.io/tessdoc/)
-
-<br>
 
