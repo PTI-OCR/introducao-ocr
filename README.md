@@ -28,10 +28,9 @@ Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principai
 
 <br>
 
-## Linguagens de Programação
+#### Linguagens de Programação
 
-
-## Aprimorando as antigas pesquisas…
+### Aprimorando as antigas pesquisas…
 
 ### Python
 
