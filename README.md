@@ -35,6 +35,7 @@ Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principai
 1. **EasyOCR**  
 Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma das soluções mais modernas, com suporte para GPUs CUDA, aproveitando o poder computacional das placas gráficas.
 <br>
+
 **Principais recursos:**  
 - Programação baseada em Deep Learning, permitindo reconhecimento de padrões complexos.  
 - Suporte multilíngue, capaz de identificar caracteres em vários idiomas.  
@@ -151,5 +152,3 @@ Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte 
 
 ## Próximos passos...
 **Avaliar as principais bibliotecas e frameworks disponíveis**  
-
-
