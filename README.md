@@ -29,7 +29,7 @@ Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principai
 
 ### Linguagens de Programação
 
-### Python
+### ● Python
 
 #### 1.**EasyOCR**  
 Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma das soluções mais modernas, com suporte para GPUs CUDA, aproveitando o poder computacional das placas gráficas.
@@ -119,7 +119,7 @@ Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do pro
 
 ---
 
-### C++
+### ● C++
 
 #### 1. **Tesseract OCR**  
 Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte para múltiplos idiomas e formatos.
