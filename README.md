@@ -32,7 +32,7 @@ Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principai
 
 ### Python
 
-1. **EasyOCR**  
+#### 1.**EasyOCR**  
 Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma das soluções mais modernas, com suporte para GPUs CUDA, aproveitando o poder computacional das placas gráficas.
 <br>
 
@@ -61,7 +61,7 @@ Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma 
 
 ---
 
-2. **PaddleOCR**  
+#### 2. **PaddleOCR**  
 Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considerada mais avançada, é recomendada para cenários complexos, como textos manuscritos e documentos estruturados.
 <br>
 
@@ -92,7 +92,7 @@ Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considera
 
 ---
 
-3. **MMOCR**  
+#### 3. **MMOCR**  
 Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do projeto OpenMMLab. Suporta detecção, reconhecimento e tarefas derivadas como extração de informações-chave.
 <br>
 
@@ -122,7 +122,7 @@ Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do pro
 
 ### C++
 
-1. **Tesseract OCR**  
+#### 1. **Tesseract OCR**  
 Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte para múltiplos idiomas e formatos.
 <br>
 
