@@ -40,6 +40,7 @@ Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma 
 - Suporte multilíngue, capaz de identificar caracteres em vários idiomas.  
 - Aproveitamento de GPU via CUDA.  
 <br>
+
 **Avaliação preliminar:**  
 | Critério            | Detalhe                          |
 |---------------------|---------------------------------|
@@ -49,6 +50,7 @@ Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma 
 | Comunidade          | Pouco ativa, suporte principalmente via GitHub Issues |
 | Personalização      | Permite treinamento com datasets específicos |
 <br>
+
 **Fontes utilizadas:**  
 - https://www.youtube.com/watch?v=QX0u69qqM3k  
 - https://medium.com/@adityamahajan.work/easyocr-a-comprehensive-guide-5ff1cb850168  
@@ -61,12 +63,14 @@ Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma 
 2. **PaddleOCR**  
 Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considerada mais avançada, é recomendada para cenários complexos, como textos manuscritos e documentos estruturados.
 <br>
+
 **Principais recursos:**  
 - Alta performance com modelos otimizados para maior precisão e velocidade.  
 - Suporte multilíngue para mais de 80 idiomas.  
 - Compatível com GPU CUDA.  
 - Permite treinamento personalizado com datasets específicos.  
 <br>
+
 **Avaliação preliminar:**  
 | Critério            | Detalhe                          |
 |---------------------|---------------------------------|
@@ -76,6 +80,7 @@ Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considera
 | Comunidade          | Ativa, suporte via GitHub Issues |
 | Personalização      | Permite treinamento com datasets específicos |
 <br>
+
 **Fontes utilizadas:**  
 - https://www.youtube.com/watch?v=kkgN3hzkSs4  
 - https://www.youtube.com/watch?v=0OA9RdW2saE  
@@ -89,11 +94,13 @@ Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considera
 3. **MMOCR**  
 Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do projeto OpenMMLab. Suporta detecção, reconhecimento e tarefas derivadas como extração de informações-chave.
 <br>
+
 **Principais recursos:**  
 - Pipeline abrangente com múltiplos modelos para detecção e reconhecimento.  
 - Design modular para customização profunda.  
 - Utilitários para avaliação de desempenho.  
 <br>
+
 **Avaliação preliminar:**  
 | Critério            | Detalhe                          |
 |---------------------|---------------------------------|
@@ -103,6 +110,7 @@ Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do pro
 | Comunidade          | Suporte em inglês, comunidade limitada |
 | Personalização      | Estrutura altamente modular      |
 <br>
+
 **Fontes utilizadas:**  
 - https://colab.research.google.com/github/open-mmlab/mmocr/blob/dev-1.x/demo/tutorial.ipynb  
 - https://www.ikomia.ai/blog/easy-text-extraction-using-mmocr  
