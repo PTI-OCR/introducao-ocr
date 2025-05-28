@@ -18,15 +18,18 @@ Apesar da precisão crescente, o OCR não é perfeito e a revisão humana é fun
 
 <br>
 
-## Linguagens de Programação
+---
 
-### Pesquisa e Análise de Bibliotecas OCR
+## Pesquisa e Análise de Bibliotecas OCR
 
 ### Pesquisas realizadas
 
 Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principais bibliotecas e linguagens compatíveis com OCR. Pretendo ampliar essa pesquisa, comparando bibliotecas e linguagens entre si com base em critérios como: percentual de erro, facilidade de uso, quantidade de materiais e pesquisas disponíveis, comunidade ativa e capacidade de personalização.
 
----
+<br>
+
+## Linguagens de Programação
+
 
 ## Aprimorando as antigas pesquisas…
 
