@@ -24,7 +24,7 @@ Apesar da precisão crescente, o OCR não é perfeito e a revisão humana é fun
 
 ### Pesquisas realizadas
 
-Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principais bibliotecas e linguagens compatíveis com OCR. Pretendo ampliar essa pesquisa, comparando bibliotecas e linguagens entre si com base em critérios como: percentual de erro, facilidade de uso, quantidade de materiais e pesquisas disponíveis, comunidade ativa e capacidade de personalização.
+Bernardo, o antigo bolsista, realizou uma pesquisa preliminar sobre as principais bibliotecas e linguagens compatíveis com OCR. Pretendo ampliar essa pesquisa, comparando bibliotecas e linguagens entre si com base em critérios como: percentual de erro, facilidade de uso, comunidade ativa e capacidade de personalização.
 
 
 ### Linguagens de Programação e principais bibliotecas
@@ -46,7 +46,6 @@ Biblioteca construída sobre PyTorch, uma das mais utilizadas em Python. É uma 
 |---------------------|---------------------------------|
 | % de erro           | Pesquisas futuras                |
 | Dificuldade         | Fácil para começar, mas requer PyTorch configurado |
-| Materiais disponíveis | Pesquisas futuras              |
 | Comunidade          | Pouco ativa, suporte principalmente via GitHub Issues |
 | Personalização      | Permite treinamento com datasets específicos |
 <br>
@@ -76,7 +75,6 @@ Biblioteca baseada no framework PaddlePaddle, desenvolvido pela Baidu. Considera
 |---------------------|---------------------------------|
 | % de erro           | Pesquisas futuras                |
 | Dificuldade         | Difícil de configurar            |
-| Materiais disponíveis | Pesquisas futuras              |
 | Comunidade          | Ativa, suporte via GitHub Issues |
 | Personalização      | Permite treinamento com datasets específicos |
 <br>
@@ -106,7 +104,6 @@ Biblioteca de código aberto baseada em PyTorch e MMDetection, integrante do pro
 |---------------------|---------------------------------|
 | % de erro           | Pesquisas futuras                |
 | Dificuldade         | Alta                            |
-| Materiais disponíveis | Pesquisas futuras              |
 | Comunidade          | Suporte em inglês, comunidade limitada |
 | Personalização      | Estrutura altamente modular      |
 <br>
@@ -136,7 +133,6 @@ Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte 
 |---------------------|---------------------------------|
 | % de erro           | Pesquisas futuras                |
 | Dificuldade         | Moderada, requer pré-processamento de imagens |
-| Materiais disponíveis | Pesquisas futuras              |
 | Comunidade          | Ativa, tecnologia madura        |
 | Personalização      | Permite treinamento com datasets específicos |
 <br>
