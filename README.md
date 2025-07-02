@@ -170,3 +170,27 @@ A partir dessa base, as próximas etapas do projeto incluem:
 5. **Criação de uma matriz comparativa**  
    - Guardar os dados obtidos em uma tabela comparativa entre as bibliotecas analisadas.  
    - Destacar pontos fortes e fracos de cada solução em termos de desempenho, usabilidade, personalização e suporte.
+
+### Estudo de Repositórios Complementares
+
+Além da análise das bibliotecas principais (EasyOCR, PaddleOCR, MMOCR e Tesseract), estou iniciando uma pesquisa exploratória sobre projetos complementares disponíveis no GitHub, especialmente mantidos pela organização **NanoNets**, que demonstram implementações práticas e estratégias de integração com OCR em Python. Estes estudos visam identificar boas práticas, arquiteturas e possibilidades de extensão do projeto.
+
+Repositórios em análise inicial:
+
+- [`ocr-python`](https://github.com/NanoNets/ocr-python)  
+  Demonstração básica de OCR utilizando a API da NanoNets.
+
+- [`docext`](https://github.com/NanoNets/docext)  
+  Projeto voltado para extração de informações estruturadas em documentos digitalizados, com foco em tabelas e campos.
+
+- [`ocr-with-tesseract`](https://github.com/NanoNets/ocr-with-tesseract)  
+  Integração do Tesseract OCR com Python para digitalização de documentos. Inclui pré-processamento de imagens.
+
+Objetivos desta análise:
+
+- Observar estruturas de projeto e padrões de desenvolvimento adotados.  
+- Investigar técnicas de pré e pós-processamento utilizadas nos exemplos.  
+- Avaliar a possibilidade de incorporar ideias ou trechos desses projetos no escopo atual do projeto.
+
+Esta é uma etapa preliminar de estudo. A partir do estudo, trechos relevantes podem ser adaptados, citados ou referenciados no desenvolvimento do projeto principal.
+
