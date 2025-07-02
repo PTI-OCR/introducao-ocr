@@ -145,5 +145,28 @@ Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte 
 
 ---
 
-## Próximos passos...
-**Avaliar as principais bibliotecas e frameworks disponíveis**  
+## Próximos passos
+
+Com base na análise preliminar das principais bibliotecas de OCR, os próximos passos visam aprofundar a avaliação das tecnologias selecionadas, tanto em termos de desempenho quanto de aplicabilidade prática. Até o momento, foram realizados testes iniciais utilizando a biblioteca **EasyOCR**, cujos resultados estão documentados na pasta [`TestesEASYOCR`](https://github.com/PTI-OCR/introducao-ocr/tree/main/TestesEASYOCR) deste repositório.
+
+A partir dessa base, as próximas etapas do projeto incluem:
+
+1. **Medição do percentual de erro nas demais bibliotecas**  
+   - Repetir os testes aplicados à EasyOCR com outras bibliotecas, como **PaddleOCR**, **MMOCR** e **Tesseract**.  
+   - Calcular métricas de desempenho, como o *CER* (*Character Error Rate*), utilizando um conjunto padronizado de imagens.
+
+2. **Avaliação da facilidade de uso**  
+   - Documentar o processo de instalação, configuração e testes iniciais de cada biblioteca.  
+   - Classificar o nível de dificuldade com base em critérios objetivos: documentação, requisitos técnicos, etc.
+
+3. **Análise da comunidade e suporte**  
+   - Investigar a atividade das comunidades relacionadas (GitHub, fóruns, repositórios oficiais).  
+   - Avaliar frequência de atualizações, número de contribuidores, etc.
+
+4. **Testes de personalização e treinamento com datasets específicos**  
+   - Verificar a viabilidade de treinar modelos personalizados com bases em dados obtidos online, com foco especial em placas de carro e textos em português.  
+   - Avaliar as ferramentas e recursos oferecidos por cada biblioteca para customização.
+
+5. **Criação de uma matriz comparativa**  
+   - Guardar os dados obtidos em uma tabela comparativa entre as bibliotecas analisadas.  
+   - Destacar pontos fortes e fracos de cada solução em termos de desempenho, usabilidade, personalização e suporte.
