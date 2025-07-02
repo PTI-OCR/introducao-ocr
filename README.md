@@ -185,7 +185,7 @@ Repositórios em análise inicial:
 - https://github.com/NanoNets/docext
   Projeto voltado para extração de informações estruturadas em documentos digitalizados, com foco em tabelas e campos.
 
-- https://github.com/NanoNets/ocr-with-tesseract 
+- https://github.com/NanoNets/ocr-with-tesseract
   Integração do Tesseract OCR com Python para digitalização de documentos. Inclui pré-processamento de imagens.
 
 Objetivos desta análise:
