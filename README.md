@@ -147,7 +147,7 @@ Biblioteca desenvolvida pelo Google, uma das mais famosas para OCR, com suporte 
 
 ## Próximos passos
 
-Com base na análise preliminar das principais bibliotecas de OCR, os próximos passos visam aprofundar a avaliação das tecnologias selecionadas, tanto em termos de desempenho quanto de aplicabilidade prática. Até o momento, foram realizados testes iniciais utilizando a biblioteca **EasyOCR**, cujos resultados estão documentados na pasta [`TestesEASYOCR`](https://github.com/PTI-OCR/introducao-ocr/tree/main/TestesEASYOCR) deste repositório.
+Com base na análise preliminar das principais bibliotecas de OCR, os próximos passos visam aprofundar a avaliação das tecnologias selecionadas, tanto em termos de desempenho quanto de aplicabilidade prática. Até o momento, foram realizados testes iniciais utilizando a biblioteca **EasyOCR**, cujos resultados estão documentados na pasta https://github.com/PTI-OCR/introducao-ocr/tree/main/TestesEASYOCR deste repositório.
 
 A partir dessa base, as próximas etapas do projeto incluem:
 
@@ -177,13 +177,13 @@ Além da análise das bibliotecas principais (EasyOCR, PaddleOCR, MMOCR e Tesser
 
 Repositórios em análise inicial:
 
-- [`ocr-python`](https://github.com/NanoNets/ocr-python)  
+- https://github.com/NanoNets/ocr-python  
   Demonstração básica de OCR utilizando a API da NanoNets.
 
-- [`docext`](https://github.com/NanoNets/docext)  
+- https://github.com/NanoNets/docext
   Projeto voltado para extração de informações estruturadas em documentos digitalizados, com foco em tabelas e campos.
 
-- [`ocr-with-tesseract`](https://github.com/NanoNets/ocr-with-tesseract)  
+- https://github.com/NanoNets/ocr-with-tesseract 
   Integração do Tesseract OCR com Python para digitalização de documentos. Inclui pré-processamento de imagens.
 
 Objetivos desta análise:
