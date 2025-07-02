@@ -171,6 +171,8 @@ A partir dessa base, as próximas etapas do projeto incluem:
    - Guardar os dados obtidos em uma tabela comparativa entre as bibliotecas analisadas.  
    - Destacar pontos fortes e fracos de cada solução em termos de desempenho, usabilidade, personalização e suporte.
 
+---
+
 ### Estudo de Repositórios Complementares
 
 Além da análise das bibliotecas principais (EasyOCR, PaddleOCR, MMOCR e Tesseract), estou iniciando uma pesquisa exploratória sobre projetos complementares disponíveis no GitHub, especialmente mantidos pela organização **NanoNets**, que demonstram implementações práticas e estratégias de integração com OCR em Python. Estes estudos visam identificar boas práticas, arquiteturas e possibilidades de extensão do projeto.
