@@ -1,7 +1,5 @@
 # Manual de instalação e execução da biblioteca 
 
----
-
 ## Para Windows 10
 
 1. **Verifique se o Python está instalado:**
@@ -44,7 +42,6 @@
    ```bash
    python nomeDoProjeto.py
    ```
-
 ---
 
 ## Para Ubuntu 20.04+
