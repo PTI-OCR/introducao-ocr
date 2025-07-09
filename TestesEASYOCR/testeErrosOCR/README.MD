@@ -20,6 +20,13 @@ O código tem como objetivo realizar o reconhecimento óptico de caracteres (OCR
 - Converte para letras maiúsculas e remove espaços em branco.  
 - Essa padronização permite uma comparação mais justa entre os textos.  
 
+### Função `filtrar_placa`
+
+- Remove tudo o que não faz parte do padrão de uma placa com expressão regular.
+- Usa a função `limpar_texto`para limpar o texto.
+- Compara com o texto que deveria ser reconhecido.
+- Caso não encontre algo que possa ser enquadrado no padrão de placa, retorna a última coisa que leu, no caso, quando lê juntamente com o nome da cidade, é a placa! Caso não consiga nem isso, retorna vazio.
+
 ### Dados de Entrada
 
 - Um dicionário `textosCorretos` mapeia o nome de cada imagem para o texto correto da placa.  
@@ -28,7 +35,8 @@ O código tem como objetivo realizar o reconhecimento óptico de caracteres (OCR
 ### Processamento
 
 - O EasyOCR reconhece o texto presente nas imagens.  
-- O texto reconhecido e o texto esperado são limpos pela função `limpar_texto`.  
+- O texto reconhecido e o texto esperado são limpos pela função `limpar_texto`.
+- Com a função `filtrar_placa` ele pega o texto reconhecido e coloca no formato de placa Brasileira (AAA0000).
 - Calcula-se a **distância de Levenshtein** entre os dois textos limpos.  
 - Essa distância representa o número de caracteres errados.  
 - O **CER** daquela imagem é calculado como:  
@@ -53,16 +61,4 @@ O código tem como objetivo realizar o reconhecimento óptico de caracteres (OCR
 
 ## Erros Identificados
 
-Ainda há muitos erros no reconhecimento, principalmente quando o sistema tenta identificar o **nome das cidades nas placas**. Estes nomes costumam variar bastante em fonte, tamanho e posição, o que dificulta a leitura correta pelo OCR.  
-
-Além disso, a qualidade das imagens (como baixa resolução ou presença de ruídos) compromete ainda mais o reconhecimento desses detalhes, aumentando a taxa de erro geral do sistema.
-
----
-
-## Melhorias Planejadas
-
-O objetivo principal do projeto é:  
-
-- **Eliminar o reconhecimento dos nomes das cidades nas placas**, que geram muitos erros.  
-- Focar apenas na leitura dos elementos essenciais.  
-- Utilizar técnicas e bibliotecas adequadas para **segmentar ou filtrar a imagem**, permitindo reconhecer somente as informações necessárias. 
+Ainda há muitos erros no reconhecimento, principalmente quando o sistema tenta identificar o **nome das cidades nas placas**, que foi parcialmente resolvido com a função `filtrar_placa`. Estes nomes costumam variar bastante em fonte, tamanho e posição, o que dificulta a leitura correta pelo OCR. Além disso, a imagem das placas, devido a variação de luz e posição, podem atrapalhar, e muito, a leitura do OCR.
