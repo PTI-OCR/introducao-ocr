@@ -5,8 +5,23 @@ import re
 
 
 def limpar_texto(texto):
-    texto = re.sub(r'[^A-Za-z0-9]', '', texto)
+    texto = re.sub(r'[^A-Za-z0-9]', '', texto) #expressao regular
     return texto.upper().strip()
+
+
+def filtrar_placa(lista_textos):
+
+    padrao_placa = re.compile(r'^[A-Z]{3}\d{4}$', re.IGNORECASE) #expressao regular
+    for txt in lista_textos:
+        txt_limpo = limpar_texto(txt)
+        if padrao_placa.match(txt_limpo):
+            return txt_limpo
+
+    if lista_textos:
+        return limpar_texto(lista_textos[-1])
+    else:
+        return "" 
+
 
 textosCorretos = {
     "img1.png": "AYO9034",
@@ -29,7 +44,8 @@ totalErros = 0
 for nomeImagem, textoCorreto in textosCorretos.items():
     caminhoImagem = os.path.join("imagensTeste", nomeImagem)
     resultado = reader.readtext(caminhoImagem, detail=0)
-    textoReconhecido = " ".join(resultado)
+
+    textoReconhecido = filtrar_placa(resultado)
 
     textoReconhecidoLimpo = limpar_texto(textoReconhecido)
     textoCorretoLimpo = limpar_texto(textoCorreto)
