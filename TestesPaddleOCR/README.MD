@@ -24,8 +24,8 @@
 
 5. **Instale as bibliotecas necessárias:**
    ```bash
-  pip install paddleocr
-  pip install paddlepaddle -f https://paddlepaddle.org.cn/whl/simple
+     pip install paddleocr
+     pip install paddlepaddle -f https://paddlepaddle.org.cn/whl/simple
    ```
 
 6. **Navegue até a pasta do projeto:**
@@ -73,8 +73,8 @@
 
 7. **Instale as bibliotecas necessárias:**
    ```bash
-  pip install paddleocr
-  pip install paddlepaddle -f https://paddlepaddle.org.cn/whl/simple
+     pip install paddleocr
+     pip install paddlepaddle -f https://paddlepaddle.org.cn/whl/simple
    ```
 
 8. **Acesse a pasta do projeto:**
